@@ -1,0 +1,41 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+header {
+  color: #f9faf8;
+  background: #1f2937;
+}
+
+a {
+  color: inherit;
+}
+
+/* //////////////// NAV BAR ///////////////// */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.header-links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 300;
+  color: #e5e7eb;
+}
+
+.header-links a {
+  text-decoration: none;
+}
