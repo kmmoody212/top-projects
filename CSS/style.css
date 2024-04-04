@@ -13,6 +13,10 @@ a {
   color: inherit;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 /* //////////////// NAV BAR ///////////////// */
 
 .navbar {
@@ -43,6 +47,11 @@ a {
 
 .header-links a {
   text-decoration: none;
+}
+
+.header-links a:hover {
+  color: rgb(77, 115, 205);
+  font-weight: 400;
 }
 
 /* //////////// HERO ////////////// */
