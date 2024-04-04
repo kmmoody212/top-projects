@@ -107,7 +107,7 @@ a {
   display: flex;
   justify-content: center;
   gap: 40px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .info-cards .card {
@@ -130,3 +130,32 @@ a {
 .info-cards .text {
   text-align: center;
 }
+
+/* ////////////////////// TESTIMONIAL ////////////////////// */
+
+.testimonial {
+  background: #e5e7eb;
+  color: #1f2937;
+  padding: 100px;
+  display: block;
+}
+
+.testimonial .quote {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  width: 60%;
+  margin: auto;
+}
+
+.testimonial .sign {
+  font-size: 24px;
+  font-weight: 700;
+  width: 50%;
+  padding: 12px;
+  margin: auto;
+  text-align: end;
+}
+
+/* /////////////////// CALL TO ACTION /////////////////// */
+
